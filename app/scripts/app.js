@@ -34,9 +34,15 @@ angular
         controller: 'AboutController'
       })
 
-      .state('contact', {
-        url: '/contact',
-        templateUrl: 'views/contact.html',
-        controller: 'ContactController'
+      .state('get-involved', {
+        url: '/get-involved',
+        templateUrl: 'views/get-involved.html',
+        controller: 'GetInvolvedController'
+      })
+
+      .state('give', {
+        url: '/give',
+        templateUrl: 'views/give.html',
+        controller: 'GiveController'
       });
   });

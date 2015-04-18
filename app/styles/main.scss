@@ -3,8 +3,13 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "helpers/_variables.scss";
+@import "base/_reset";
+@import "base/_typography";
+@import "helpers/_variables";
+@import "helpers/_functions";
+@import "helpers/_helpers";
+@import "helpers/_mixins";
+@import "layout/_footer";
+@import "layout/_forms";
+@import "layout/_header";
 
-body {
-  background-color: $primary-color;
-}

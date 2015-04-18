@@ -21,6 +21,10 @@ angular.module('controllers', [])
     ];
   })
 
-  .controller('ContactController', function() {
+  .controller('GiveController', function() {
+
+  })
+
+  .controller('GetInvolvedController', function() {
 
   });
