@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('carryMeHomeApp', [
+  .module('cmh', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
